@@ -1,26 +1,18 @@
-# Lung-Cancer-Detection-Using-Python
-## Dataset
-The Cancer Imaging Archive (TCIA)
-http://www.cancerimagingarchive.net/
+Python-Based Lung Cancer Detection ## Cancer Imaging Archive (TCIA) Dataset http://www.cancerimagingarchive.net/
+Code files 
+Programming has been done in a modular way.
 
-## Code files 
-Code have been written in Modular fashion
+PredictCancer.py: The last picture testing program
+NeuralNetwork.py: MLP learning features with SKlearn and pickling the Weights
+LungCancerTrain.py: This file contains all of the code and image processing methods used to train the model.
+dataset_create.py: This script creates the positive and negative case folders and names the photos according to the specifications.
 
-PredictCancer.py : Final program for testing a image
+For reference, test case photos for both categories were provided to the repository together with the terminal output.
 
-NeuralNetwork.py : MLP using SKlearn to learn the features and saving the Weights using pickle
-
-LungCancerTrain.py : All Image processing techniques and code for training the model are written here
-
-dataset_create.py : For making the folders of both positive and negative cases and naming the images in required format
-
-Test Case images of both categories and added in the repository along with its terminal output for reference
-
-## Dependencies
+Libraries
 Python3 , OpenCV - cv2 , pickle , datafile libraries 
 
-## Output
-
+Output
 Positive case
 
 ![cancer image](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
@@ -31,5 +23,4 @@ Negative case
 ![no cancer image](https://user-images.githubusercontent.com/33830482/42348968-c95ed394-80c8-11e8-8c2e-5f25a61f3ccd.png)
 ![no cancer terminal](https://user-images.githubusercontent.com/33830482/42348970-c9da984e-80c8-11e8-87e0-4afe7dde8bfb.png)
 
-This work was done in partnership with my friend Tarun Bhargav Sriram as a project for Digital Image Processing elective.
-Any queries about the project, contact at vinaybn8997@gmail.com
+
